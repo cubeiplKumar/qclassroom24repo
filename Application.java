@@ -27,6 +27,7 @@ class Main {
 
     System.out.println("Squared value of 10 is: " + result);
   }
+
   # feature202 changes made by Ethan for Reports Module Oct2022
   public void display2(int a) {
     System.out.println("Method with a single parameter: " + a);
@@ -45,4 +46,15 @@ class Main {
   }
 }
   
+
+  #feature201 changes done by Vivek on 10-oct-2022 on Savings Module for HDFC Project
+  public class DemoClass{
+ 
+ public static void main (String[] args){
+    System.out.println("Hello , this is sample program");   
+    double d = Math.random();
+    System.out.println("Random Number:"+d);
+ }
+ }
+
 }
