@@ -27,4 +27,22 @@ class Main {
 
     System.out.println("Squared value of 10 is: " + result);
   }
+  # feature202 changes made by Ethan for Reports Module Oct2022
+  public void display2(int a) {
+    System.out.println("Method with a single parameter: " + a);
+  }
+
+  public static void main(String[] args) {
+    
+    // create an object of Main
+    Main obj = new Main();
+
+    // calling method with no parameter
+    obj.display1();
+    
+    // calling method with the single parameter
+    obj.display2(24);
+  }
+}
+  
 }
